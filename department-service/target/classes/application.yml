@@ -1,0 +1,8 @@
+server:
+  port: 9010
+spring:  application:    name: department-service
+  jpa:    hibernate:      ddl-auto: update    show-sql: true
+  datasource:    username: root
+    password: Cloud@123$
+    url: jdbc:mysql://localhost:3306/fisglobal
+    driver-class-name: com.mysql.cj.jdbc.Driver
